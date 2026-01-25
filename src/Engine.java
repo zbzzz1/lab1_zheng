@@ -32,4 +32,3 @@ public class Engine {
     public void setHp(String hp) { this.hp = hp; }
     public void setCylinderCount(String cylinderCount) { this.cylinderCount = cylinderCount; }
 }
-
