@@ -1,7 +1,7 @@
 /**
  * Project: Lab 1 – Java Programing Assignment: Motorcycle
  * Purpose Details: Model a motorcycle with composition of Engine and Wheels classes.
- *                  implement constructors, getters, setters, and documentation.
+ *                  apply constructors, getters, setters, and documentation.
  * Course: IST 242 Section 001: Inter Oo App Dev
  * Author: Ziyan Zheng
  * Date Developed: 01/25/2026
