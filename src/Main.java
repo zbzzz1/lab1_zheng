@@ -12,15 +12,15 @@
 public class Main {
     public static void main(String[] args){
 
-        Engine cruiserEngine = new Engine("Gasoline", "1200cc", "90 HP", "2-cylinder");
+        Engine cruiserEngine = new Engine("Gasoline", "1200", "90", "2-cylinder");
         Wheels cruiserWheels = new Wheels("18-inch", "Cruiser Tire", "Disc Brake", "Steel");
         Motorcycle cruiser = new Motorcycle("Matte Black", "Cruiser", "2-person", cruiserEngine, cruiserWheels);
 
-        Engine sportEngine = new Engine("Gasoline", "650cc", "75 HP", "4-cylinder");
+        Engine sportEngine = new Engine("Gasoline", "650", "75", "4-cylinder");
         Wheels sportWheels = new Wheels("17-inch", "Sport Tire", "Dual Disc Brake", "Aluminum");
         Motorcycle sportbike = new Motorcycle("Bright Pink", "Sportbike", "1-person", sportEngine, sportWheels);
 
-        Engine offRoadEngine = new Engine("Gasoline", "800cc", "60 HP", "1-cylinder");
+        Engine offRoadEngine = new Engine("Gasoline", "800", "60 ", "1-cylinder");
         Wheels offRoadWheels = new Wheels("19-inch", "Off-Road Tire", "Disc Brake", "Aluminum");
         Motorcycle offRoadBike = new Motorcycle("Creamy White", "Off-Road", "1-person", offRoadEngine, offRoadWheels);
 
