@@ -23,6 +23,12 @@ public class Motorcycle {
         this.engine = engine;
         this.wheels = wheels;
     }
+    /**
+     * Adds two numbers and returns the result.
+     *
+     * @param color This is the color of the bike frame.
+     * @param size This is the size of the bike frame.
+     */
 
     public String getColor() { return color; }
     public String getBikeType() { return bikeType; }
